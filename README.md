@@ -1,10 +1,5 @@
-# Pass_proc
+# Pass_proc this is still not ready
 Open source personal encrypted password manager
-
-
-
-
-
 
 **Installation**
 
