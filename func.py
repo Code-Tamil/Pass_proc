@@ -2,11 +2,11 @@
 # >> Version : pass_proc_1.0.1 
 # >> Created by : Tharun
 # >> Description : Open source password manager
-# >> Docs : 
+# >> Docs : https://github.com/Tharunkumarmuthu/Pass_proc
 # >> Support : bc1qcxpjnznn7zmq3xyxnafqjn39j46e5j33seu3dz
 ##########################################################
 
-# importing
+# IMPORTING
 import hashlib 
 import random
 import pyfiglet
@@ -19,6 +19,8 @@ for_which_arr = []
 the_pass_arr = []
 
 # Declaring Functions
+
+# MODULES INSTALLING FUNC
 def install ():
     if os.name == 'posix':
         os.system('pip3 install hashlib\npip3 install pyfiglet')
@@ -31,6 +33,7 @@ def is_null(input):
         return True
     else:
         return False
+
 # RETURN YES
 def return_yes(input):
     if input == 'y' or input == 'Y':
@@ -38,6 +41,7 @@ def return_yes(input):
     else:
         return False
 # RANDOM PASSWORD GENERATOR
+
 def random_gen():
 
     uppercase = 'QWERTYUIOPASDFGHJKLZXCVBNM'
@@ -222,11 +226,9 @@ def create_file():
 
 # CLEAR SRCEEN
 def screen_clear():
-    # for mac and linux(here, os.name is 'posix')
     if os.name == 'posix':
       _ = os.system('clear')
     else:
-      # for windows platfrom
       _ = os.system('cls')
     banner()
 
@@ -234,13 +236,13 @@ def screen_clear():
 def banner():
     ascii_banner = pyfiglet.figlet_format("Pass || Proc") 
     print(ascii_banner)
-    print('-' * 50)
-    print('>> Version : pass_proc_1.0.1 \n>> Created by : Tharun\n>> Description : Open source password manager')
-    print('-' * 50)    
+    print('-' * 55)
+    print('>> Version : pass_proc_1.0.1 \n>> Created by : Tharun\n>> Description : Open source password manager\n>> Docs : https://github.com/Tharunkumarmuthu/Pass_proc\n>> Support : bc1qcxpjnznn7zmq3xyxnafqjn39j46e5j33seu3dz')
+    print('-' * 55)    
 
 # OPTION SELECTING
 def option_selector(file_name,userpass):
-    #Selecting options
+    # Selecting options
     screen_clear()
     print('Select from the options \n1)view the pass\n2)write a pass\n3)delete a pass')
     option = input()
@@ -266,7 +268,8 @@ def option_selector(file_name,userpass):
 def press_exit(settable_file_name,settable_userpass):
     input('PRESS [ENTER] ')
     my_main(settable_file_name,settable_userpass)
-# the main fuc
+
+# the main func
 def my_main(settable_file_name,settable_userpass):
     #gets into the program
     if settable_file_name == '' and settable_userpass == '':
