@@ -8,8 +8,12 @@ git clone https://github.com/Tharunkumarmuthu/Pass_proc.git
 cd Pass_Proc
 python3 execute.py
 ```
-
 **Usage**
+Youtube video:
+Check this video to learn how to use this tool
+[Youtube](http://github.com)
+
+**How it is Working**
 ```
 This password manager just decrpyt and encrypt '.thpass' files using md5 hash and a password that you give
 
@@ -27,6 +31,4 @@ It was written in python(Open source)
 
 So you can develop your own method of encryption and decryption if you know python language
 ```
-Youtube video:
-Check this video to learn how to use this tool
-[Youtube](http://github.com)
+
