@@ -9,7 +9,7 @@ cd Pass_Proc
 python3 execute.py
 ```
 **Usage**
-Youtube video:
+
 Check this video to learn how to use this tool
 [Youtube](http://github.com)
 
