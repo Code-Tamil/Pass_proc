@@ -5,7 +5,7 @@ Open source personal encrypted password manager
 
 ```
 git clone https://github.com/Tharunkumarmuthu/Pass_proc.git
-cd Pass_Proc
+cd Pass_proc
 python3 execute.py
 ```
 **Usage**
