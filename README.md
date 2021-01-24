@@ -1,4 +1,4 @@
-# Pass_proc this is still not ready
+# Pass_proc
 Open source personal encrypted password manager
 
 **Installation**
@@ -28,4 +28,5 @@ It was written in python(Open source)
 So you can develop your own method of encryption and decryption if you know python language
 ```
 Youtube video:
+Check this video to learn how to use this tool
 [Youtube](http://github.com)
