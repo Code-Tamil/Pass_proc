@@ -3,7 +3,6 @@
 # >> Created by : Tharun
 # >> Description : Open source password manager
 # >> Docs : https://github.com/Tharunkumarmuthu/Pass_proc
-# >> Support : bc1qcxpjnznn7zmq3xyxnafqjn39j46e5j33seu3dz
 ##########################################################
 
 # IMPORTING
