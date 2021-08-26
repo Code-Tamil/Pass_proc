@@ -8,10 +8,7 @@ git clone https://github.com/Tharunkumarmuthu/Pass_proc.git
 cd Pass_proc
 python3 execute.py
 ```
-**Usage**
 
-Check this video to learn how to use this tool
-[Youtube](http://github.com)
 
 **How it is Working**
 ```
