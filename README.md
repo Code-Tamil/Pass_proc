@@ -1,4 +1,4 @@
-# Pass_proc
+# Pass_proc_v1
 Open source personal encrypted password manager
 
 **Installation**
